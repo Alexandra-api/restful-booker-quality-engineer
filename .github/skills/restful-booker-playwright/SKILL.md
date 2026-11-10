@@ -47,6 +47,7 @@ Si faltan datos que impidan una prueba segura o una aserción confiable, no inve
 ```bash
 npm ci
 npx playwright install --with-deps chromium
+npm run typecheck
 npm run test:api
 npm run test:ui
 npm test

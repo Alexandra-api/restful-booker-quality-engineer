@@ -1,0 +1,18 @@
+{
+  "name": "restful-booker-quality-engineer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pruebas de API y UI para Restful Booker Platform con Playwright Test y TypeScript.",
+  "scripts": {
+    "test": "playwright test",
+    "test:api": "playwright test tests/api",
+    "test:ui": "playwright test tests/ui",
+    "typecheck": "tsc --noEmit",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.10.0",
+    "typescript": "^5.9.3"
+  }
+}
